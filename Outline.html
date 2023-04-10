@@ -1,0 +1,70 @@
+<!-- CSS outline -->
+<!-- CSS has the flolowing outline properties:
+outline-style
+outline-color
+outline-width
+outline-oddset
+outline -->
+<!-- CSS Outline Style(it's look like border-style): properties the style 
+of the outlineand can have one of the following values:
+doted, dashed, solid, double, groove, ridge, inset
+ouset, none, hidden -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+                border: 2px solid black;
+                outline: #4CAF50 solid 10px;
+                margin: auto;
+                padding: 20px;
+                text-align: center;
+            }
+            p {
+                outline-color: red;
+            }
+            p.dotted {
+                outline-style: dotted;
+            }
+            p.dashed {
+                outline-style: dashed;
+            }
+            p.solid {
+                outline-style: solid;
+            }
+            p.double {
+                outline-style: double;
+            }
+            p.groove {
+                outline-style: groove;
+            }
+            p.ridge {
+                outline-style: ridge;
+            }
+            p.inset {
+                outline-style: inset;
+            }
+            p.outset {
+                outline-style: outset;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>CSS outline</h2>
+        <p class="one">
+            This element has a 2px black border and
+            a green outline with a width of 10px.
+        </p><br>
+        <h2>The outline-style property</h2>
+        <p class="dotted">A dotted outline</p><br>
+        <p class="dashed">A dashed outline</p><br>
+        <p class="solid">A solid outline</p><br>
+        <p class="double">A double outline</p><br>
+        <p class="groove">A groove outline. The effect depends on the outline-color value.</p><br>
+        <p class="ridge">A ridege outline</p><br>
+        <p class="inset">A inset outline</p><br>
+        <p class="outset">A outset outline</p><br>
+    </body>
+</html>
+

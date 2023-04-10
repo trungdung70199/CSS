@@ -1,0 +1,67 @@
+<!-- Text Alignment and Text Direction: -->
+<!-- Text Alignment: used to set the horizontal alignment of a text. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: lightblue;
+            }
+            h1 {
+                color: red;
+                text-align: center;
+            }
+            h2 {
+                text-align: left;
+            }
+            h3 {
+                text-align: right;
+            }
+            /* text-align property is set to "justity" each line is 
+            stretched so that every line had equal width, left and 
+            right margin are straight */
+            div {
+                border: 1px solid red;
+                padding: 10px;
+                width: 200px;
+                height: 200px;
+                text-align: justify;
+                /* outline: yellow; */
+            }
+            p.one {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading 1 (Center)</h1>
+        <h2>Heding 2 (left)</h2>
+        <h3>Heading 3 (right)</h3>
+        <p>The three heading above are aligned center, left and right</p>
+        <br>
+        <h1>
+            Example text-align: justity
+        </h1>
+        <p>
+            The text-align: justity; value stretches
+            the lines so that each line has equal width
+            (like in newspaper and magazines).
+        </p>
+        <div>
+            In my younger and more vulnerable years my 
+            father gave me some advice that I've been 
+            turning over in my mind ever since. 'Whenever
+            you feel like criticizing anyone.' he told 
+            me, 'just remember that all the people in this
+            world haven't had the advantages that you're had.'
+        </div>
+        <br>
+        <!-- Direction and unicode-bidi: can be used 
+        to change the text direction of an element -->
+        <p>This is the default text direction.</p>
+        <p class="one">This is right-to-left
+            text direction.
+        </p>
+    </body>
+</html>

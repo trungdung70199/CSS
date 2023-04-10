@@ -1,0 +1,44 @@
+<!-- CSS Border color: is used to set the color of the four borders -->
+<!-- The color can be set by:
+name: specify a color name, like "red"
+HEX: specify a HEX value, like "#ffffff"
+RGB: specify a RGB value, like "rgb(255,0,0)"
+HSL: specify a HSL value, like "hsl(0,100%,50%)" -->
+<!-- If border-color is not set, it inherits the color of the element. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+                border-style: solid;
+                border-color: red;
+            }
+            p.two {
+                border-style: solid;
+                border-color: green;
+            }
+            p.three {
+                border-style: dotted;
+                border-color: blue;
+            }
+            /* Specific Side Colors: can have from one to four values */
+            p.four {
+                border-style: solid;
+                border-color: red green blue yellow;
+            }
+        </style>
+    </head>
+    <boody>
+        <h1>The border-color property</h1>
+        <p>This is property specifies the color of the four borders:</p>
+        <p class="one">Red border</p>
+        <p class="two">Green border</p>
+        <p class="three">Blue border</p>
+        <p class="four">Four Colors</p>
+        <p>
+            <strong>Note:</strong> The border-color property does
+            not work if it is used alone. Use the border-style
+            property to set the borders first.
+        </p>
+    </boody>
+</html>

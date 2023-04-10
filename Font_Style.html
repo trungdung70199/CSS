@@ -1,0 +1,70 @@
+<!-- Font-style: is mostly used to specify italic text -->
+<!-- This property has three values:
+normal: The text is shown normally
+italic: The text is shown in italics
+oblique: The text is "leaning" -->
+<!-- Font-weight: specifies the weight of a font -->
+<!-- Font-varian: specifies whether or not a text should
+be displayed in a small-caps font -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.normal {
+                font-style: normal;
+            }
+
+            p.italic {
+                font-style: italic;
+            }
+
+            p.oblique {
+                font-style: oblique;
+            }
+/* Font - Weight */
+            p.one {
+                font-weight: normal;
+            }
+
+            p.light {
+                font-weight: lighter;
+            }
+
+            p.thick {
+                font-weight: bold;
+            }
+
+            p.thicker {
+                font-weight: 900;
+            }
+/* FOnt - Variant */
+            div.normal {
+                font-variant: normal;
+            }
+            div.small {
+                font-variant: small-caps;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The font-style property</h1>
+        <p class="normal">This is a paragraph in normal style</p>
+        <p class="italic">This is a paragraph in italic style</p>
+        <p class="oblique">This is a paragraph in oblique style</p><br>
+        <h1>
+            The font-weight property
+        </h1>
+        <p class="one">This is a paragraph</p>
+        <p class="light">Another paragraph</p>
+        <p class="thick">A paragraph</p>
+        <p class="thicker">Paragraph</p><br>
+        <h1>The font-variant property</h1>
+        <div class="normal">
+            <p>My name is D</p>
+        </div>
+        <br>
+        <div class="small">
+            <p>My name is Dng</p>
+        </div>
+    </body>
+</html>

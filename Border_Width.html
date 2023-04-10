@@ -1,0 +1,56 @@
+<!-- CSS Border Width:is the width of the four  borders-->
+<!-- The width can be set as a specifies size(in px,pt,cm,em,etc)
+and by using one of the three pre-defined values:thin,medium or thick -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+                border-style: solid;
+                border-width: 5px;                
+            }
+            p.two {
+                border-style: solid;
+                border-width: medium;
+            }
+            p.three {
+                border-style: dotted;
+                border-width: 2px;
+            }
+            p.four {
+                border-style: double;
+                border-width: thick;
+            }
+            p.five {
+                border-style: double;
+                border-width: 15px;
+            }
+            p.six {
+                border-style: dashed;
+                border-width: thin;
+            }
+            /* Specific Side Widths:top, right, bottom, left */
+            p.seven {
+                border-style: solid;
+                border-width: 25px 10px 4px 35px
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            The border-width property
+        </h1>
+        <p class="one">Some text</p>
+        <p class="two">Some thing</p>
+        <p class="three">Some one</p>
+        <p class="four">Some body</p>
+        <p class="five">No thing</p>
+        <p class="six">SOME TEXT</p>
+        <p class="seven">Some text</p>
+        <p>
+            <strong>Note:</strong> The "border-width" property
+            does not work if it is used alone. Always specify
+            the  "border-style" property to set the borders first.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!-- CSS Padding is used create around an element's content -->
+<!-- Padding -  Indiviual Sides -->
+<!-- padding-top
+padding-right
+padding-bottom
+padding-left -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.one {
+                border: 1px solid black;
+                background-color: lightblue;
+                padding-top: 50px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+            }
+            /* shorthand property has one value: all four are 50px. */
+            div.two {
+                border: 1px solid red;
+                padding: 25px;
+                background-color: lightblue;
+            }
+            div.three {
+                width: 300px;
+                background-color: yellow;
+            }
+            div.four {
+                width: 300px;
+                padding: 50px;
+                background-color: lightblue;
+            }
+            div.ex1 {
+                width: 300px;
+                background-color: yellow;
+            }
+            div.ex2 {
+                width: 300px;
+                padding: 25px;
+                box-sizing: border-box;
+                background-color: lightblue;
+            }
+            p.padding {
+                padding-left: 2cm;
+            }
+            p.padding2 {
+                padding-left: 50%;
+            }
+            p.padding3 {
+                padding-right: 2cm
+            }
+            p.padding4 {
+                padding-right: 50%
+            }
+        </style>
+    </head>
+    <body>
+        <h2>
+            Using individual padding property
+        </h2>
+        <div class="one">
+            This div element has a top padding of 50px,
+            a right padding of 30px, a bottom padding
+            of 50px, a bottom paddding 50px, and a left
+            padding of 80px.
+        </div>
+        <br>
+        <h2>
+            The padding shorthand property 1 value
+        </h2>
+        <div class="two">
+            This div element has a top, bottom, left, and right
+            padding of 25px
+        </div>
+        <br>
+        <h2>
+            Padding and element width
+        </h2>
+        <div class="three">
+            This is 300px wide.
+        </div>
+        <br>
+        <div class="four">
+            The width of this div is 400px(300px + 50px of let padding 
+            + 50px of right padding), even thought it is defind as 300px 
+            in the CSS. 
+        </div>
+        <br>
+        <h2>
+            Padding and element width-with box-sizing
+        </h2>
+        <div class="ex1">This is 300px</div>
+        <div class="ex2">
+            The width of this div remains at 300px, in spite
+            of the 50px of total left and right padding, because
+            of the box-sizing: border-box property.
+        </div>
+        <br>
+        <h1>
+            The padding-left property
+        </h1>
+        <p>
+            This is a text with no left padding.
+        </p>
+        <p class="padding">
+            This text has a left padding of 2cm.
+        </p>
+        <p class="padding2">
+            This text has a left padding of 50%.
+        </p>
+        <br>
+        <h1>
+            The padding-right property
+        </h1>
+        <p>
+            This is a text eit no right padding. This is
+            a text with no right padding.  This example 
+            demonstrates how to set the left padding of a
+            p element.
+        </p>
+        <br>
+        <p class="padding3">
+            This text has a rright padding of 2cm.
+            The Boy Who Lived
+            They were perfevtly normal, thank you very much
+            They were the last people you'd expect to be 
+            involed in anythng strange.
+        </p>
+        <p class="padding4">
+            This text has a right padding of 50%.
+            The Dursleys had everything they wanted, but they
+            also had a secret, and their greatest fear was that
+            sombody would discover it.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!-- CSS Height, Width and Max-width -->
+<!-- CSS height and width are used to set the height and width -->
+<!-- Max-width: used to set the maximum width of an element -->
+<!-- CSS height and widt Values: have the flolowing values
+auto: This is default
+length: defines the height/width in px,cm,em,...
+%: Defines the height/width in percent of the containing block
+initial: Sets the height/width to its default value
+inherit: The height/width will be inherited from its parent -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.one {
+                height: 200px;
+                width: 50%;
+                border: 1px solid black;
+                background-color: lightblue;
+            }
+            div.two {
+                height: 100px;
+                width: 500px;
+                background-color: lightgreen;
+            }
+            div.three {
+                max-width: 500px;
+                height: 100px;
+                background-color: coral;
+            }
+            div.four {
+                max-width: 500px;
+                min-width: 200px;
+                max-height: 600px;
+                min-height: 400px;
+                background-color: powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>
+            Set height and width of an element
+        </h2>
+        <div class="one">
+            This is element has a height of 200px
+            and a width of  50%.
+        </div>
+        <br>
+        <h2>
+            Set the height and width of an element
+        </h2>
+        <div class="two">
+            This div element has a height of 100px and
+            a width of 500px.
+        </div>
+        <br>
+        <p>
+            <strong>Note:</strong> the height and width properties do
+            not include padding, borders, or margins.
+        </p>
+        <br>
+<!-- Setting max-width: used to set the maximum width of an element -->
+        <h2>Set the max-width of an element</h2>
+        <div class="three">
+            This div element has a height of 100px
+            and a max-width of 500px.
+        </div>
+        <br>
+        <h2>Set the max-width and min-width of an element</h2>
+        <p>Resize the browser window to see the effect</p>
+        <div class="four">
+            This is some text about ocean. 
+            An ocean can also
+            refer to any of the large 
+            bodies of water into 
+            which the world ocean is 
+            conventionally divied.
+            Separate names are used to
+            ifrntify five different.
+        </div>
+    </body>
+</html>

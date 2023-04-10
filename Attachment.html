@@ -1,0 +1,31 @@
+<!-- CSS background attachment: property specifies 
+whether the background image should scroll or be fixed -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url("owl.jfif");
+                background-repeat: no-repeat;
+                background-position: right top;
+                margin-right: 200px;
+                background-attachment: fixed; /*ảnh sẽ không di chuyển nếu cuộn xuống*/
+                /* background-attachment: scroll; ảnh cuộn cùng với phần còn lại của trang */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            The background attachment property
+        </h1>
+        <p>
+            The background-attachment property specifies
+            whether the background image should scroll or
+            be fixed (will not scroll with the rest of the page).
+        </p>
+        <p>
+            <strong>Tip:</strong> If you do not see any
+            scrollbars, try to resize the browser window.
+        </p>
+    </body>
+</html>

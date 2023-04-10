@@ -1,0 +1,40 @@
+<!-- CSS Outline Offset: adds space between an outline
+and the edge/border of an element. The space between an
+element and its outline is transparent -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+                margin: 30px;
+                border: 1px solid black;
+                outline: 1px solid red;
+                outline-offset: 15px;
+            }
+            p.two {
+                margin: 30px;
+                background: lightblue;
+                border: 1px solid black;
+                outline: 1px solid red;
+                outline-offset: 15px;
+            }
+        </style>
+        <body>
+            <h2>The outline-offset property</h2>
+            <p class="one">
+                This paragraph has an outline 15px outside
+                the border edge.
+            </p>
+            <br>
+            <h2>
+                The outline-offset property with 
+                background-color
+            </h2>
+            <p class="two">
+                This paragraph has an outline of 15px
+                outline the border edge.
+            </p>
+        </body>
+    </head>
+</html>
+

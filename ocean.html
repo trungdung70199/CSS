@@ -1,0 +1,47 @@
+<!-- Set the height and width of an image using percent -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            img.one {
+                height: auto;
+                width: auto;
+            }
+            img.two {
+                height: 50%;
+                width: 50%;
+            }
+            img.three {
+                height: auto;
+            }
+            img.four {
+                height: 200px;
+                width: 200px;
+            }
+            div.three {
+                height: 300px;
+                width: 300px;
+                background-color: palegreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Set the height and width in %</h2>
+        <p>Resize the browser window to see the effect.</p>
+        <p>Original image:</p>
+        <img class="one" src="ocean.jfif" width="300" height="300"><br>
+        <p>Sized image (in%):</p>
+        <img class="two" src="ocean.jfif" width="300" height="300"><br>
+        <br>
+        <h2>Set the height and width of element</h2>
+        <p>Original image:</p>
+        <img class="three" src="deep_ocean.jpg" width="300" height="300"><br>
+        <p>Sized image (200x200 pixels):</p>
+        <img class="four" src="deep_ocean.jpg" width="300" height="300"><br>
+        <p>The height and width of this div element is 300px:</p>
+        <div class="three"></div><br>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!-- Text Indentation: used to specify the indentation
+of the first line of a text -->
+<!-- Letter Spacing: is used to specify the space
+between the characters in a text. -->
+<!-- line-height: used to specify the space betweeen lines. -->
+<!-- Word-spacing: used to specify the space between the words in a text -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.one {
+                text-indent: 50px;
+            }
+
+            h1.one {
+                letter-spacing: 5px;
+            }
+
+            p.two {
+                letter-spacing: -2px;
+            }
+
+            p.big {
+                line-height: 1.8;
+            }
+
+            p.small {
+                line-height: 0.7;
+            }
+            
+            p.three {
+                word-spacing: 10px;
+            }
+
+            p.four {
+                word-spacing: -2px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Using text-indent</h1>
+        <p class="one">
+            In my younger and more vulnerable years
+            my father gave me some advice that I've
+            been turning over in my mind ever since. 
+            'Whenever you feel like criticing anyone,
+            he told me, just remember that all the people
+            in this world haven't had the advantages that
+            you've had.'
+        </p>
+        <br>
+        <h1>Using letter-spacing</h1>
+        <h1 class="one">This is heading 1</h1>
+        <p class="two">This is paragraph</p>
+        <br>
+        <h1>Using line-height</h1>
+        <p>
+            This is a paragraph with a standard line-height<br>
+            The deafault line height in most browser is about
+            110% to 120%.
+        </p>
+        <br>
+        <p class="small">
+            This is a paragraph with a smaller line-height.<br>
+            This is a paragraph with a smaller line-height.
+        </p>
+        <br>
+        <p class="big">
+            This is a paragraph<br>
+            This is a paragraph a bigger line-height.
+        </p>
+        <br>
+        <h1>Using word-spacing</h1>
+        <p>This is a paragraph with normal word spacing</p>
+        <p class="three">This is a paragraph with larger word spacing</p>
+        <p class="four">This is a paragraph with smaller word Spacing</p>
+    </body>
+</html>

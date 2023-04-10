@@ -1,0 +1,43 @@
+<!-- Font size: property sets the size of the text -->
+<!-- Absolute size:
+Sets the text to a specified size
+Does not allow a user to change the text size in all
+browsers (bad for accessibility reasons)
+Absolute size is useful when the physical size of
+the output is known  -->
+<!-- Relative size:
+Sets the size relative to surrounding elements
+Allows a user to change the text size in browsers -->
+<!-- Set Font Size With Em -->
+<!-- 1em = 16px -->
+<!-- Viewport is the browser window size.
+1vw = 1% of viewport width. If the viewport is
+50cm wide, 1vw is 0.5cm -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 1.875em;
+            }
+            p {
+                font-size: 0.875;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <p>This is a paragraph</p>
+        <p>
+            Specifying the font-size in em allows all
+            major browser to resize the text. Unfortunately,
+            there is still a problem with older versions
+            of IE. When resizing the text, it become larger/
+            smaller than it should.
+        </p>
+    </body>
+</html>
